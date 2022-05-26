@@ -9,7 +9,6 @@ export default function Todo({todo, handleCheckButton}) {
       <div className='todo-item'>
         <p className='todo-name'>{todo.name}</p>
         <i id ='btn-check'className="fas fa-check" onClick={()=> handleCheckButton(todo.id)}></i>
-        {console.log('cc')}
       </div>
     </>
   )
